@@ -18,7 +18,7 @@ h1, h2, h3, h4 {font-family: "Nunito Sans", Calibri, sans-serif;
                   text-align: left;}
 h1{      font-size: 4em;
          color: rgba(255, 255, 255, 1);
-         margin: 25px}}
+         margin: 25px}
 
 
 header {
@@ -210,7 +210,7 @@ color: #0f6270;
   .mainwrapper{max-width: 100%;}
   .mainpage-box{max-width: 90%;}
   .summer-banner img{max-width: 100%;}
-  .logo {max-width: 100%}
+  .logo img{max-width: 350px;}
   }
 
   .TL-wrapper {
