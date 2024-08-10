@@ -30,7 +30,7 @@ border-radius: 10px;
 
 footer {
 text-align:center;
-font-size: 14px;s
+font-size: 14px;
 color: black;
 }
 
@@ -313,6 +313,26 @@ color: #0f6270;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
+
+  
+  .album-storyblock{
+    position: relative;
+    display: inline-block;
+    transition: transform .1s;
+    }
+    .album-storyblock:hover{
+    transform: translate(0, -10px);
+    }
+    
+    .album-storyblock img{
+      height: auto;
+      width: auto;
+    max-width: 200px;
+    max-height: 200px ;
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
   
   .event-storyblock{
   position: relative;
@@ -386,6 +406,7 @@ color: #0f6270;
     .story-holder .management-storyblock {display: inline-block; margin: 1% 0;}
     .story-holder .management-storyblock-wip {display: inline-block; margin: 1% 0;}
     .story-holder .magazine-storyblock {display: inline-block; margin: 1% 0;}
+    .story-holder .album-storyblock {display: inline-block; margin: 1% 0;}
     .event-storyblock img{max-width: 100%;}
     .chara-name {font-size: 13px;}
     }
