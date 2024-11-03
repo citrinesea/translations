@@ -221,7 +221,7 @@ color: #0f6270;
   
   .idolTL-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 5px;
   }
   
@@ -393,7 +393,7 @@ color: #0f6270;
   
   @media only screen and (max-width: 600px) {
     .TL-wrapper{
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr;
     }
     .idolTL-wrapper{
       grid-template-columns: 1fr 1fr;
