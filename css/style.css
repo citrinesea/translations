@@ -472,6 +472,8 @@ color: #0f6270;
     }
   
   @media only screen and (max-width: 600px) {
+    .navigation img {width: 130px;
+    }
     .TL-wrapper{
       grid-template-columns: 1fr 1fr;
     }
