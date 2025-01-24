@@ -487,6 +487,22 @@ max-height: 100px ;
     max-width: 100%;
     bottom: 10px;
     }
+
+  .chara-name-fish{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    
+    padding: 2px;
+    background-color:#2b71ad;
+    color: white;
+    text-align: left;
+    padding: 0 25px 0 25px;
+    
+    max-width: 100%;
+    bottom: 10px;
+    }
   
   @media only screen and (max-width: 600px) {
     .navigation img {width: 130px;
@@ -509,4 +525,5 @@ max-height: 100px ;
     .story-holder .album-storyblock img {height: auto; width: auto; max-width: 300px;}
     .event-storyblock img{max-width: 100%;}
     .chara-name {font-size: 13px;}
+    .chara-name-fish {font-size: 13px;}
     }
