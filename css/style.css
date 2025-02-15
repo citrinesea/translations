@@ -521,8 +521,8 @@ max-height: 100px ;
     .story-holder .management-storyblock {display: inline-block; margin: 1% 0;}
     .story-holder .management-storyblock-wip {display: inline-block; margin: 1% 0;}
     .story-holder .magazine-storyblock {display: inline-block; margin: 1% 0;}
-    .story-holder .album-storyblock {display: inline-block; margin: 1% 0;}
-    .story-holder .album-storyblock img {height: auto; width: auto; max-width: 300px;}
+    .story-holder .album-storyblock {display: inline-block; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));}
+    .story-holder .album-storyblock img {height: auto; width: auto; max-width: 400px;}
     .event-storyblock img{max-width: 100%;}
     .chara-name {font-size: 13px;}
     .chara-name-fish {font-size: 13px;}
