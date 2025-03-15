@@ -290,23 +290,14 @@ color: #0f6270;
   
   .idolTL-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 5px;
   }
   
   .managamentTL-wrapper {
   }
-  
-  .chara-name {font-size: 17px;
-    visibility: visible;
-    opacity: 1;}
-  
-    .chara-name:hover{
-      transition: transform .1s;
-      background-color: #28694d;
-      transform: scale(1.05);
-      }
-  
+
+    
   .magazine-storyblock{
   position: relative;
   transition: transform .1s;
@@ -368,9 +359,9 @@ color: #0f6270;
   position: relative;
   display: inline-block;
   transition: transform .1s;
-  }
-  .idol-storyblock:hover{
-  transform: translate(0, -10px);
+  box-shadow: #000b2b;
+
+  z-index: 1;
   }
   
   .idol-storyblock img{
@@ -379,9 +370,58 @@ color: #0f6270;
   max-width: 100% ;
   max-height: 100% ;
   
+  border: 2px solid rgb(190, 190, 208);
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  transition-duration: .2s;
   }
+
+  .idol-storyblock:hover{
+    animation: floatyMotion 2.5s ease-in-out infinite;
+    z-index: 100;
+  }
+
+  @keyframes floatyMotion {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0px); }
+}
+
+  .idol-storyblock:hover img{
+    border: 2px solid rgb(0, 140, 255);
+
+    transform: scale(1.1);
+    transform: rotate(5deg);
+    }
+
+    .chara-name {
+      font-size: 15px;
+      text-align: left;
+      visibility: visible;
+      z-index: 30;
+    
+      transition: transform .2s;}
+
+    .idol-storyblock:hover .chara-name{
+      color: rgb(255, 255, 255);
+
+      background-color: rgb(0, 156, 177);
+      border-top: solid 2px rgb(255, 255, 255);
+      border-bottom: solid 2px rgb(254, 254, 254);
+      opacity: 1;
+      z-index: 100;
+      }
+
+      .idol-storyblock:hover .chara-name-fish{
+        color: rgb(255, 255, 255);
+
+        background-color: rgb(0, 156, 177);
+        border-top: solid 2px rgb(255, 255, 255);
+        border-bottom: solid 2px rgb(254, 254, 254);
+        opacity: 1;
+ 
+        z-index: 100;
+        }
 
   
   .album-storyblock{
@@ -481,11 +521,13 @@ max-height: 100px ;
     padding: 2px;
     background-color:#000b2b;
     color: white;
+    border-top: solid 2px rgb(255, 255, 255);
+    border-bottom: solid 2px rgb(254, 254, 254);
     text-align: left;
     padding: 0 25px 0 25px;
     
     max-width: 100%;
-    bottom: 10px;
+    bottom: 5px;
     }
 
   .chara-name-fish{
@@ -495,13 +537,15 @@ max-height: 100px ;
     position: absolute;
     
     padding: 2px;
-    background-color:#2b71ad;
+    background-color:#16828a;
     color: white;
+    border-top: solid 2px rgb(255, 255, 255);
+    border-bottom: solid 2px rgb(254, 254, 254);
     text-align: left;
     padding: 0 25px 0 25px;
     
     max-width: 100%;
-    bottom: 10px;
+    bottom: 5px;
     }
   
   @media only screen and (max-width: 600px) {
