@@ -598,12 +598,12 @@ max-height: 100px ;
     }
 
     .cw-dropdown {
-      border-left: 4px solid #d6a000;
+      border-left: 4px solid #850101;
       background-color: #fff9f0;
-      padding: 1.25em 1.5em;
+      font-size: 15px;
+      padding: 10px;
       border-radius: 3px;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-      transition: all 0.3s ease;
       margin-bottom: 1.5em;
     }
     
