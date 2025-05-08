@@ -293,6 +293,12 @@ color: #0f6270;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 5px;
   }
+
+  .idolTL-wrapper2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+  }
   
   .managamentTL-wrapper {
   }
@@ -628,6 +634,9 @@ max-height: 100px ;
       grid-template-columns: 1fr 1fr;
     }
     .idolTL-wrapper{
+      grid-template-columns: 1fr 1fr;
+    }
+    .idolTL-wrapper2{
       grid-template-columns: 1fr 1fr;
     }
     .managementTL-wrapper {grid-template-columns: 1fr 1fr;
