@@ -284,7 +284,7 @@ color: #0f6270;
 
   .TL-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 5px;
   }
   
@@ -296,7 +296,19 @@ color: #0f6270;
 
   .idolTL-wrapper2 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+  }
+
+  .idolTL-wrapper3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+  }
+
+  .idolTL-wrapper4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 5px;
   }
   
@@ -533,7 +545,7 @@ max-height: 100px ;
     position: absolute;
     
     padding: 2px;
-    background-color:#000b2b;
+    background-color:#000b2bab;
     color: white;
     border-top: solid 2px rgb(255, 255, 255);
     border-bottom: solid 2px rgb(254, 254, 254);
@@ -543,7 +555,6 @@ max-height: 100px ;
     max-width: 100%;
     bottom: 5px;
     }
-
     
     .unproofread-label {
       display: flex;
@@ -555,7 +566,7 @@ max-height: 100px ;
       z-index: 30;
       
       padding: 2px;
-      background-color:#86b00a;
+      background-color:#0ab0a5;
       color: white;
       border-top: solid 2px rgb(255, 255, 255);
       border-bottom: solid 2px rgb(254, 254, 254);
@@ -575,7 +586,7 @@ max-height: 100px ;
         z-index: 30;
         
         padding: 2px;
-        background-color:#0ab089;
+        background-color:#50a100;
         color: white;
         border-top: solid 2px rgb(255, 255, 255);
         border-bottom: solid 2px rgb(254, 254, 254);
@@ -625,7 +636,7 @@ max-height: 100px ;
 
     .cw-dropdown {
       border-left: 4px solid #850101;
-      background-color: #fff9f0;
+      background-color: #ffffff;
       font-size: 15px;
       padding: 10px;
       border-radius: 3px;
@@ -634,7 +645,7 @@ max-height: 100px ;
     }
     
     .cw-dropdown.red {
-      background-color: #fbfcf4;
+      background-color: #ffffff;
       border-left-color: #c0392b;
     }
     
@@ -658,6 +669,12 @@ max-height: 100px ;
     }
     .idolTL-wrapper2{
       grid-template-columns: 1fr 1fr;
+    }
+    .idolTL-wrapper3 {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .idolTL-wrapper4 {
+      grid-template-columns: 1fr 1fr 1fr;
     }
     .managementTL-wrapper {grid-template-columns: 1fr 1fr;
     }
