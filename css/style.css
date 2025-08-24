@@ -687,9 +687,9 @@ max-height: 100px ;
     .story-holder .album-storyblock {display: inline-block; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));}
     .story-holder .album-storyblock img {height: auto; width: auto; max-width: 400px;}
     .event-storyblock img{max-width: 100%;}
-    .chara-name {font-size: 10px;}
-    .chara-name-fish {font-size: 10px;}
-    .WIP-label {font-size: 10px;}
-    .partialTL-label {font-size: 10px;}
-    .unproofread-label {font-size: 10px;}
+    .chara-name {font-size: 8px;}
+    .chara-name-fish {font-size: 8px;}
+    .WIP-label {font-size: 8px;}
+    .partialTL-label {font-size: 8px;}
+    .unproofread-label {font-size: 8px;}
     }
