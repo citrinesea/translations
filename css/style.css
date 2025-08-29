@@ -416,12 +416,24 @@ footer {
 }
 
 @media (max-width: 480px) {
-    .story-grid, .story-grid2, .story-grid3 { 
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
-        gap: 15px;
+    .story-grid, .story-grid3, .horizontal-grid { 
+        grid-template-columns: 1fr 1fr; 
+        gap: 5px;
     }
-    .story-card#album { width: 125px; }
+    .story-grid2 { 
+        grid-template-columns: 1fr 1fr 1fr; 
+        gap: 5px;
+    }
+    .story-card#album { width: 150px; }
     
+    .story-grid2 .story-card {
+        flex-direction: column;
+        height: 200px;
+    }
+    .story-card {
+        flex-direction: column;
+        height: 250px;
+    }
     .horizontal-card {
         flex-direction: column;
         height: auto;
