@@ -138,6 +138,10 @@ header {
     height: 270px;
 }
 
+.story-card#coming {
+    filter: grayscale(100%);
+}
+
 .story-card#album {
     aspect-ratio: 1 / 1;
     height: auto;
@@ -258,6 +262,7 @@ header {
 .partial { background: var(--partial); color: white; }
 .unproofread { background: var(--unproofread); color: white; }
 .hosted { background: var(--hosted); color: white; }
+.coming { background: var(--secondary); color: white;}
 
 /* STORY GRIDS */
 .story-grid { grid-template-columns: repeat(6, 1fr); }
