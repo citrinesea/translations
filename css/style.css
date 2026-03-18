@@ -310,7 +310,7 @@ header {
     padding: 15px 20px;
     background-color: var(--light);
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 400;
     color: var(--primary);
     list-style: none;
     position: relative;
