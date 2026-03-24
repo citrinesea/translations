@@ -323,23 +323,6 @@ header {
     position: relative;
 }
 
-.cw-dropdown summary::-webkit-details-marker {
-    display: none;
-}
-
-.cw-dropdown summary::after {
-    content: '+';
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 1.2rem;
-}
-
-.cw-dropdown[open] summary::after {
-    content: '-';
-}
-
 .cw-dropdown .dropdown-content {
     padding: 20px;
     background-color: var(--card-bg);
