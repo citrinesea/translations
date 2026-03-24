@@ -118,9 +118,16 @@ header {
     position: absolute;
     bottom: -2px;
     left: 0;
-    width: 60px;
+    width: 100px;
     height: 2px;
     background-color: var(--accent);
+}
+
+.era-title {
+    font-size: 1.3rem;
+    color: var(--secondary);
+    padding: 10px;
+    position: relative;
 }
 
 /* STORY CARDS */
@@ -130,7 +137,7 @@ header {
     position: relative;
     border-radius: 10px;
     border: 2.5px solid white;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 6px, rgba(0, 0, 0, 0.4) 0px 3px 6px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: all 0.2s ease;
 }
 
@@ -357,7 +364,6 @@ footer {
     text-align: center;
 }
 
-/* MOBILE */
 @media (min-width: 769px) {
     .status-label {
         width: 8px;
