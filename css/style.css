@@ -277,7 +277,7 @@ header {
 .story-grid { grid-template-columns: repeat(6, 1fr); }
 .story-grid2 { grid-template-columns: repeat(7, 1fr); }
 .story-grid3 { grid-template-columns: repeat(6, 1fr); }
-.story-grid4 { grid-template-columns: repeat(8, 1fr); }
+.story-grid4 { grid-template-columns: repeat(9, 1fr);}
 .horizontal-grid { grid-template-columns: repeat(5, 1fr); }
 
 .story-grid, .story-grid2, .story-grid3, .story-grid4, .horizontal-grid {
