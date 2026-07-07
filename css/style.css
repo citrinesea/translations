@@ -388,7 +388,7 @@ footer {
 @media (max-width: 768px) {
     .story-grid, .story-grid3, .story-grid4 { grid-template-columns: repeat(3, 1fr); }
     .story-grid2 { grid-template-columns: repeat(3, 1fr); }
-    .horizontal-grid { grid-template-columns: 1fr; }
+    .horizontal-grid { grid-template-columns: repeat(3, 1fr); }
     
     .story-card { height: 320px; }
     .horizontal-card { height: 120px; }
