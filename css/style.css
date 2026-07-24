@@ -111,6 +111,10 @@ header {
     padding-bottom: 10px;
     border-bottom: 2px solid var(--light);
     position: relative;
+    
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 .category-title::after {

@@ -1,0 +1,54 @@
+/* theme name and card set picker title */
+.theme-header-wrapper {
+    animation: fadeIn 0.5s ease;
+}
+
+.theme-header-wrapper h4 {
+    font-size: 1.5rem;
+    color: var(--primary);
+    position: relative;
+    
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.theme-header-wrapper .theme-subtitle {
+    display: block;
+    font-size: 0.9rem;
+    color: black;
+    letter-spacing: 0.5px;
+}
+
+/* RRECC BOX */
+.recommendation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Card title and description yuu-style */
+.recc-title {
+    font-weight: 700;
+    padding: 2px 0 0 0;
+}
+.story-description {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 2px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
