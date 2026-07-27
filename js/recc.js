@@ -276,6 +276,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     img: "images/previews/skillsfromthepast.jpg",
                     link: "https://citrinesea.github.io/translation/soul_in_a_single_stroke/",
                     description: "Keito finds Eichi and Anzu in the student council room together."
+                },
+                {
+                    title: "The Me Who Breaks Out Of The Mold",
+                    img: "images/previews/breakingmold.jpg",
+                    link: "https://citrinesea.github.io/translation/the_me_who_breaks_out_of_the_mold/",
+                    description: "Keito strives to figure out who he is and how to be authentic to himself."
                 }
             ]
         },
@@ -310,6 +316,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     img: "images/previews/scrolls-shinobu-bloom.jpg",
                     link: "https://citrinesea.github.io/translation/scroll_of_the_elements/",
                     description: "Shinobu and Souma work together to lead the live Scroll of the Elements."
+                },
+                {
+                    title: "The Me Who Breaks Out Of The Mold",
+                    img: "images/previews/breakingmold.jpg",
+                    link: "https://citrinesea.github.io/translation/the_me_who_breaks_out_of_the_mold/",
+                    description: "Keito strives to figure out who he is and how to be authentic to himself."
                 }
             ]
         }
