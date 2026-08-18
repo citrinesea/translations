@@ -124,6 +124,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     img: "images/previews/secretmission.jpg",
                     link: "https://citrinesea.github.io/translation/emergency_secret_mission/",
                     description: "Shinobu goes on a stealth mission to hide his bad haircut."
+                },
+                {
+                    title: "Students, Idols and Adventure",
+                    img: "images/previews/studentsadventure.jpg",
+                    link: "https://citrinesea.github.io/translation/students_idols_and_adventures/",
+                    description: "A look at Shinobu's student council duties in his third year."
                 }
             ]
         },

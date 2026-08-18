@@ -113,7 +113,6 @@ header {
     position: relative;
     
     font-weight: 700;
-    letter-spacing: 3px;
     text-transform: uppercase;
 }
 
@@ -139,7 +138,7 @@ header {
     background: transparent;
     overflow: hidden;
     position: relative;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 2.5px solid white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: all 0.2s ease;
@@ -242,26 +241,21 @@ header {
     right: 10px;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 4px;
     z-index: 2;
 }
 
 .status-label {
-    padding: 6px 12px;
-    border-radius: 20px;
+    padding: 6px 9px;
+    border-radius: 5px;
     font-size: 0.75rem;
     font-weight: 700;
-    text-transform: uppercase;
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
     background: rgba(255, 255, 255, 0.9);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     transition: all 0.2s ease;
     display: flex;
     align-items: center;
     justify-content: center;
     white-space: nowrap;
-    opacity: 1;
     border: 2px solid white;
 }
 
